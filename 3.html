@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset = "utf-8">
+            <title> Данные о книге в интернет-магазине </title>
+    </head>
+    <body>
+
+            <form name="test"  action="3.php">
+                    <p><b>Название книги :</b><br>
+                    <input type="text" size="40" required></p>
+                    <p><b>Автор:</b><br>
+                    <input type="text" size="40" required></p>
+                    <p><b>Издательство:</b><br>
+                    <input type="text" size="40" required></p>
+                    <p><b>Город:</b><br>
+                    <input type="text" size="40" required></p>
+                    <p><b>Год:</b><br>
+                    <input type="text" size="5" required pattern="[0-9]{4}"></p>
+                    <p><b>Количество странц:</b><br>
+                    <input type="number" size="5" min="0" required></p>
+                    <p><b>Раздел библиотеки:</b><Br>
+                    <input type="text" size="40" required></p>
+                    <p><b>Наличие книги в данный момент</b><Br>
+                    <input type="radio" name="danet" value="da"> Да<Br>
+                    <input type="radio" name="danet" value="net"> Нет</p>
+                    <p><b>Субъективная оценка книги</b><Br>
+                    <input type="number" size="10" min="0" max="10" required></p>
+                    <p><input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить"></p>
+                   </form>
+    </body> 
+</html>
